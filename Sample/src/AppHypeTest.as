@@ -104,17 +104,17 @@ package
 		
 		private function onAvailable(event:AppHypeEvent):void
 		{
-			text.text = "onAvailable : "+event.getMessage();
+			text.text = "onAvailable : AdCode is "+event.getMessage();
 		}
 		
 		private function onShow(event:AppHypeEvent):void
 		{
-			text.text = "onShow : "+event.getMessage();
+			text.text = "onShow : AdCode is "+event.getMessage();
 		}
 		
 		private function onHide(event:AppHypeEvent):void
 		{
-			text.text = "onHide : "+event.getMessage();
+			text.text = "onHide : AdCode is "+event.getMessage();
 		}
 		private function onIntegrationError(event:AppHypeEvent):void
 		{
