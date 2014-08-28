@@ -142,7 +142,6 @@ appHype.showAd(AdCode.Video);
 //Show Interstitial Ad  
 if(AppHype.isAvailable(AdCode.Interstitial))  
 appHype.showAd(AdCode.Interstitial); 
-				
 ```
 12. Developer can close Ad with API as well
 ```
