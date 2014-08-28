@@ -147,6 +147,7 @@ appHype.showAd(AdCode.Interstitial);
 12. Developer can close Ad with API as well
 ```
 	appHype.closeAd();
+	
 ```
 
 			
