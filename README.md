@@ -25,9 +25,9 @@ AppHypeSDK
 
 # To use AppHype SDK in existing Flash/Action-Script Android Application
 
-1 Download  AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip)
+1. Download AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip)
 
-2 Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
+2. Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
 
 3. Change Sample Application id in Main-app.xml file with the application package created in step 4
 ```
