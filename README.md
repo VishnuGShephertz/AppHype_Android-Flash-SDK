@@ -32,10 +32,10 @@ AppHypeSDK
 3. Change Sample Application id in Main-app.xml file with the application package created in step 4
 ```
 <id>Your Application Package</id>  
+
 ```
 
 4. Copy the code given below in Main-app.xml
-
 ```
  //Add Android Permissions  
 <uses-permission android:name="android.permission.INTERNET">  
