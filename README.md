@@ -29,7 +29,8 @@ AppHypeSDK
 
 2. Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
 
-3. Change Sample Application id in Main-app.xml file with the application package created in step 4
+3. Change Sample Application id in Main-app.xml file with the application package created in step 4.
+
 ```
 <id>Your Application Package</id>  
 
