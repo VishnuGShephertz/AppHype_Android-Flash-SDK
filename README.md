@@ -25,18 +25,18 @@ AppHypeSDK
 
 # To use AppHype SDK in existing Flash/Action-Script Android Application
 
-1. Download AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip)
+__1.__ Download AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip)
 
-2. Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
+__2.__ Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
 
-3. Change Sample Application id in Main-app.xml file with the application package created in step 4.
+__3.__ Change Sample Application id in Main-app.xml file with the application package created in step 4.
 
 ```
 <id>Your Application Package</id>  
 
 ```
 
-4. Copy the code given below in Main-app.xml
+__4.__ Copy the code given below in Main-app.xml
 ```
  //Add Android Permissions  
 <uses-permission android:name="android.permission.INTERNET">  
@@ -64,19 +64,19 @@ AppHypeSDK
  
 ```
 
-5. Now, create AppHype object and initialize AppHype SDK with the application Keys of the App in which you are cross promoting
+__5.__ Now, create AppHype object and initialize AppHype SDK with the application Keys of the App in which you are cross promoting
 ```
       var appHype:AppHype=new AppHype();  
       appHype.Initialize("API_KEY","SECRET_KEY");  
 ```
 
-6. To enable logs in application
+__6.__ To enable logs in application
 ```
 appHype.enableLogs();
 
 ```
 
-7. To handle callBack events from AppHype SDK, add events and define these Functions
+__7.__ To handle callBack events from AppHype SDK, add events and define these Functions
 
 ```
     appHype.addEventListener(AppHypeEvent.Available, onAvailable);  
@@ -88,7 +88,7 @@ appHype.enableLogs();
 
 ```
 
-8. Define Function declared above to trace callBack from AppHype
+__8.__ Define Function declared above to trace callBack from AppHype
 
 ```
        private function onAvailable(event:AppHypeEvent):void  
@@ -122,13 +122,13 @@ appHype.enableLogs();
 
 ```
 
-9. Developer can put restrictions on when to show ads in App(s)
+__9.__ Developer can put restrictions on when to show ads in App(s)
 ```
 appHype.restrictAd(restricLaunch);
 
 ```
 
-10. To show ads in application, developer has to preLoad them e.g Video or Interstitial
+__10.__ To show ads in application, developer has to preLoad them e.g Video or Interstitial
 ```
     //Make a request for Video Ad  
      appHype.preLoadAd(AdCode.Video);  
@@ -136,7 +136,7 @@ appHype.restrictAd(restricLaunch);
      appHype.preLoadAd(AdCode.Interstitial);;  ;
 
 ```
-11. Developer can show ads in application only if, they are available
+__11.__ Developer can show ads in application only if, they are available
 ```
   if(AppHype.isAvailable(AdCode.Video))  
 appHype.showAd(AdCode.Video);  
@@ -144,7 +144,7 @@ appHype.showAd(AdCode.Video);
 if(AppHype.isAvailable(AdCode.Interstitial))  
 appHype.showAd(AdCode.Interstitial); 
 ```
-12. Developer can close Ad with API as well
+__12.__ Developer can close Ad with API as well
 ```
 	appHype.closeAd();
 	
