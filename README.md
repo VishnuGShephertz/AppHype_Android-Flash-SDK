@@ -14,7 +14,7 @@ AppHypeSDK
 3. Create [Cross Promotion Campaign ](http://apphype.shephertz.com/app/apps#/createPromo)of the added App(s) to promote it in other App(s) 
 4. Now, create another App(s) by adding it on [Create App ](http://apphype.shephertz.com/app/apps#/addApp)in which you wish to cross promote
 5. You will get [Application Keys](http://apphype.shephertz.com/app/apps#/all) after App creation for SDK integration, which will be needed to initialize AppHype SDK
-6. Download [Flash Android SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip) with Sample Application
+6. Download [Flash Android SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/archive/master.zip) with Sample Application
 7. Open Sample Application in your Flash-Builder
 8. Change Sample Application id in AppHypeTest-app.xml file with the application package created in step 4 at line no      18. 
 9. Change Sample Application id in AppHypeTest-app.xml file with the application package name created in step 4
@@ -25,7 +25,7 @@ AppHypeSDK
 
 # To use AppHype SDK in existing Flash/Action-Script Android Application
 
-__1.__ Download AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/tree/Version-1.0/archive/master.zip)
+__1.__ Download AppHype Flash Android [SDK] (https://github.com/VishnuGShephertz/AppHype_Android-Flash-SDK/archive/master.zip)
 
 __2.__ Add AppHype.ane(Android Native Extension) in your existing Flash/Action-Script mobile application
 
